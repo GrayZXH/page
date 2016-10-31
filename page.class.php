@@ -93,10 +93,6 @@
 		 	}
 
 		 	function write(){
-		 		echo $this->now_page."<br>";
-		 		echo $this->all_item."<br>";
-		 		echo $this->page_size."<br>";
-		 		echo $this->all_page."<br>";
 		 		echo $this->all_item();
 		 		echo $this->now_page();
 		 		echo $this->first_page();
