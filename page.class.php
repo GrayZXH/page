@@ -9,7 +9,7 @@
 	    	private $start_page;//起始页
 	    	private $end_page;//结束页
 	    	private $str;//拼接字符串用
-	    	private $page_url;//页面URL
+	    	private $page_url;//当前页面的URL
 
 	    	function __construct($now_page,$all_item,$page_size,$page_url){
 	    		$this->page_url=$page_url;
